@@ -3,7 +3,7 @@ import pytz
 from src.common import utils
 from src.modules import *
 
-offset = pytz.timezone('America/Los_Angeles').localize(datetime.datetime.now()).utcoffset()
+offset = pytz.timezone('America/New_York').localize(datetime.datetime.now()).utcoffset()
 # Compile assignments into a list
 assignments = {}
 modules = [
