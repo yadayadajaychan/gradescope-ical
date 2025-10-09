@@ -1,0 +1,61 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Gradescope iCal Integration
+
+
+on: 
+  push:
+    branches: [ main ]
+  schedule:
+  - cron: '0 5,11,17,23 * * *' # Hours 5, 11, 17, and 23 in UTC time (0, 6, 12, and 18 in EST)
+  workflow_dispatch:
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Upgrade to latest Gradescope iCal Integration version
+      run: |
+        git config --global user.name 'Gradescope-iCal-Integration'
+        git config --global user.email 'Gradescope-iCal-Integration@jakobz5404.github.io'
+        git config --global pull.rebase false
+        git remote add Gradescope-iCal-Integration 'https://github.com/jakobz5404/Gradescope-iCal-Integration'
+        git fetch Gradescope-iCal-Integration
+        git checkout Gradescope-iCal-Integration/main -- .
+        git checkout HEAD -- data || true
+        git checkout HEAD -- .github
+        git commit -m 'Upgraded to latest Gradescope-iCal-Integration version' || true
+    
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        cache: "pip"
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+
+    - name: Retrieve assignment information
+      run: |
+        python --version
+        python main.py
+      env:
+        GRADESCOPE_USER: ${{ secrets.GRADESCOPE_USER }}
+        GRADESCOPE_PASSWORD: ${{ secrets.GRADESCOPE_PASSWORD }}
+    
+    - name: Commit new outputs
+      run: |
+        git add . || true
+        git commit -m 'Updated assignments' || true
+        git push origin main
+        git push -f origin main:github-pages

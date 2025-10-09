@@ -1,0 +1,5 @@
+beautifulsoup4
+dateparser
+requests
+datetime
+pytz
