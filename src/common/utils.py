@@ -44,13 +44,14 @@ def json_to_ics(time_offset, json_path=os.path.join(DATA_DIR, 'assignments.json'
         for assignment in course_assignments:
             if not assignment['submitted']:
                 uid = uid + 1
-                if time_offset == 0:
-                    time = assignment['dueDate']
-                else:
-                    time = datetime.strftime(datetime.strptime(assignment['dueDate'], '%Y%m%dT%H%M%SZ') - time_offset,
-                                             '%Y%m%dT%H%M%SZ')
+                #if time_offset == 0:
+                #    time = assignment['dueDate']
+                #else:
+                #    time = datetime.strftime(datetime.strptime(assignment['dueDate'], '%Y%m%dT%H%M%SZ') - time_offset,
+                #                             '%Y%m%dT%H%M%SZ')
 
                 # grab only the date
+                time = assignment['dueDate']
                 time = time[0:8]
 
                 event_details = (f"BEGIN:VEVENT\r\n"
