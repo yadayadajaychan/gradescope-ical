@@ -7,6 +7,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/1136690/assignments/6914803/submissions/356773864",
       "submitted": true
+    },
+    {
+      "title": "CA 1",
+      "course": "25F-EC ENGR-M116C-LEC-1 / 25F-COM SCI-M151B-LEC-1",
+      "dueDate": "20251022T235900Z",
+      "lateDueDate": "20251024T235900Z",
+      "link": "https://www.gradescope.com/courses/1136690",
+      "submitted": false
     }
   ],
   "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1": [
