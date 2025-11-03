@@ -23,6 +23,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/1136690/assignments/7001146/submissions/361062816",
       "submitted": true
+    },
+    {
+      "title": "CA2",
+      "course": "25F-EC ENGR-M116C-LEC-1 / 25F-COM SCI-M151B-LEC-1",
+      "dueDate": "20251107T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/1136690",
+      "submitted": false
     }
   ],
   "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1": [
@@ -57,6 +65,14 @@
       "lateDueDate": "20251020T180000Z",
       "link": "https://www.gradescope.com/courses/1145410/assignments/7002891/submissions/360281902",
       "submitted": true
+    },
+    {
+      "title": "Assignment 2: Software Security",
+      "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
+      "dueDate": "20251107T235900Z",
+      "lateDueDate": "20251111T235900Z",
+      "link": "https://www.gradescope.com/courses/1145410",
+      "submitted": false
     }
   ]
 }
