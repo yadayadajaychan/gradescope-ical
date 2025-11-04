@@ -67,7 +67,15 @@
       "submitted": true
     },
     {
-      "title": "Assignment 2: Software Security",
+      "title": "Assignment 2 Software Security: Code",
+      "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
+      "dueDate": "20251107T235900Z",
+      "lateDueDate": "20251111T235900Z",
+      "link": "https://www.gradescope.com/courses/1145410",
+      "submitted": false
+    },
+    {
+      "title": "Assignment 2 Software Security: Report",
       "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
       "dueDate": "20251107T235900Z",
       "lateDueDate": "20251111T235900Z",
