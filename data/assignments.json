@@ -89,6 +89,22 @@
       "lateDueDate": "20251111T235900Z",
       "link": "https://www.gradescope.com/courses/1145410",
       "submitted": false
+    },
+    {
+      "title": "Group Project - Midterm Report",
+      "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
+      "dueDate": "20251112T160000Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/1145410",
+      "submitted": false
+    },
+    {
+      "title": "Group Project - Midterm Presentation Slides",
+      "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
+      "dueDate": "20251112T160000Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/1145410",
+      "submitted": false
     }
   ]
 }
