@@ -39,6 +39,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/1136690/assignments/7113932/submissions/367897347",
       "submitted": true
+    },
+    {
+      "title": "CA3",
+      "course": "25F-EC ENGR-M116C-LEC-1 / 25F-COM SCI-M151B-LEC-1",
+      "dueDate": "20251123T235900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/1136690",
+      "submitted": false
     }
   ],
   "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1": [
@@ -91,9 +99,17 @@
       "submitted": true
     },
     {
+      "title": "Quiz 2",
+      "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
+      "dueDate": "20251110T175100Z",
+      "lateDueDate": "20251110T175100Z",
+      "link": "https://www.gradescope.com/courses/1145410/assignments/7104204/submissions/368165805",
+      "submitted": true
+    },
+    {
       "title": "Group Project - Midterm Report",
       "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
-      "dueDate": "20251112T160000Z",
+      "dueDate": "20251112T235900Z",
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/1145410",
       "submitted": false
