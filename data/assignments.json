@@ -47,6 +47,14 @@
       "lateDueDate": null,
       "link": "https://www.gradescope.com/courses/1136690",
       "submitted": false
+    },
+    {
+      "title": "HW 4",
+      "course": "25F-EC ENGR-M116C-LEC-1 / 25F-COM SCI-M151B-LEC-1",
+      "dueDate": "20251119T115900Z",
+      "lateDueDate": null,
+      "link": "https://www.gradescope.com/courses/1136690",
+      "submitted": false
     }
   ],
   "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1": [
@@ -126,7 +134,7 @@
       "title": "Assignment 3: ML Security",
       "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
       "dueDate": "20251125T235900Z",
-      "lateDueDate": "20251129T235900Z",
+      "lateDueDate": "20251127T235900Z",
       "link": "https://www.gradescope.com/courses/1145410/assignments/7128457/submissions/new",
       "submitted": false
     }
