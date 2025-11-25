@@ -145,6 +145,14 @@
       "lateDueDate": "20251127T235900Z",
       "link": "https://www.gradescope.com/courses/1145410/assignments/7128457/submissions/new",
       "submitted": false
+    },
+    {
+      "title": "Quiz 3",
+      "course": "25F-EC ENGR-M117-LEC-1 / 25F-COM SCI-M138-LEC-1",
+      "dueDate": "20251124T175100Z",
+      "lateDueDate": "20251124T180000Z",
+      "link": "https://www.gradescope.com/courses/1145410/assignments/7169165/submissions/373033002",
+      "submitted": true
     }
   ]
 }
