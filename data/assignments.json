@@ -47,6 +47,14 @@
       "lateDueDate": "20260304T140000Z",
       "link": "https://www.gradescope.com/courses/1211924/assignments/7762536/submissions/394675277",
       "submitted": true
+    },
+    {
+      "title": "Homework 7",
+      "course": "ECE 101B",
+      "dueDate": "20260310T140000Z",
+      "lateDueDate": "20260311T140000Z",
+      "link": "https://www.gradescope.com/courses/1211924",
+      "submitted": false
     }
   ]
 }
